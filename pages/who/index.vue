@@ -3,6 +3,7 @@
     <main class="single_main">
       <h1>{{ page.title }}</h1>
       <div class="content">
+        <h2>Here will be short history about myself soon...</h2>
         <div v-html="page.html">
           {{ page.html }}
         </div>
