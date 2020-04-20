@@ -1,19 +1,15 @@
 <template>
   <div class="container">
     <main class="single_main">
-      <h1>{{ page.title }}</h1>
       <div class="content">
         <h2>Here will be short history about myself soon...</h2>
-        <div v-html="page.html">
-          {{ page.html }}
-        </div>
       </div>
     </main>
   </div>
 </template>
 
 <script>
-import { getPage } from '~/api/posts';
+/* import { getPage } from '~/api/posts';
 
 export default {
   async asyncData () {
@@ -23,13 +19,12 @@ export default {
 
   head () {
     return {
-      title: this.page.meta_title,
       meta: [
         { hid: 'description', name: 'description', content: this.page.meta_description }
       ]
     }
   }
-}
+} */
 </script>
 
 <style scoped>
