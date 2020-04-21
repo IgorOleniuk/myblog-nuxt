@@ -9,7 +9,7 @@
             <ul>
               <li><nuxt-link to="/who" class="logo">Who?</nuxt-link></li>
               <li><nuxt-link to="/who" class="logo">Posts</nuxt-link></li>
-              <li><nuxt-link to="/who" class="logo">Contact</nuxt-link></li>
+              <li><nuxt-link to="/contact" class="logo">Contact</nuxt-link></li>
             </ul>
           </nav>
         </div>

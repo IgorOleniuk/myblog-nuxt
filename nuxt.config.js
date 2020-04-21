@@ -14,7 +14,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap' }
-    ]
+    ],
+    script: [
+      { src: 'https://meet.jit.si/external_api.js' }
+    ],
   },
   /*
   ** Customize the progress-bar color
