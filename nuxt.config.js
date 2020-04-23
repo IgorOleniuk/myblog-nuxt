@@ -1,5 +1,4 @@
-
-export default {
+module.exports = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -49,7 +48,7 @@ export default {
 
   styleResources: {
     scss: [
-        '~assets/scss/_colors.scss'
+      '~assets/scss/_colors.scss'
     ]
   },
   /*
@@ -68,4 +67,4 @@ export default {
     extend (config, ctx) {
     }
   }
-}
+};
