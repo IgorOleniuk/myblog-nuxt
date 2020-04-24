@@ -57,6 +57,10 @@ module.exports = {
   */
   axios: {
   },
+
+  router: {
+    trailingSlash: false,
+  },
   /*
   ** Build configuration
   */
