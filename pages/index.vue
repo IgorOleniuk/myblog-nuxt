@@ -2,7 +2,7 @@
   <div>
     <div class="hero">
       <div class="container">
-        <h1>Welcome To my DevBlog</h1>
+        <h1>Welcome To my DevBlog Test Word</h1>
         <p class="subtitle">Lorem ipsum dolor sit amen,  consetetur sadipscing</p>
         <nuxt-link to="contact" class="hire">Hire me</nuxt-link>
       </div>
