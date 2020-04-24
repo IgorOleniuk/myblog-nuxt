@@ -1,8 +1,8 @@
 import GhostContentAPI from '@tryghost/content-api';
 
 const api = new GhostContentAPI({
-  url: 'https://igoroleniuk-2.ghost.io',
-  key: 'b1bf3b595ea19f3bed479dd354',
+  url: 'https://marysaoleniuk.ghost.io',
+  key: 'd8aa8110f15842f2847ba29bba',
   version: 'v3'
 });
 
