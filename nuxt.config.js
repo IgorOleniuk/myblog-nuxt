@@ -44,7 +44,15 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
+    'nuxt-trailingslash-module',
   ],
+
+  trailingslash: {
+    methods: [
+      'GET',
+      'HEAD',
+    ],
+  },
 
   styleResources: {
     scss: [
