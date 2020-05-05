@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   mode: 'universal',
   /*
@@ -31,11 +32,14 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/instagram', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // Doc: https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv',
   ],
   /*
   ** Nuxt.js modules
