@@ -49,6 +49,9 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     'nuxt-trailingslash-module',
+    ['@nuxtjs/google-analytics', {
+      id: process.env.GA_ID || ''
+    }]
   ],
 
   trailingslash: {
