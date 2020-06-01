@@ -55,7 +55,7 @@ module.exports = {
     [
       '@nuxtjs/yandex-metrika',
       {
-        id: '59380747',
+        id: '64533646',
         webvisor: true,
       }
     ],
