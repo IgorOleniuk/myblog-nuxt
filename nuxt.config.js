@@ -51,7 +51,14 @@ module.exports = {
     'nuxt-trailingslash-module',
     ['@nuxtjs/google-analytics', {
       id: process.env.GA_ID || ''
-    }]
+    }],
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id: '59380747',
+        webvisor: true,
+      }
+    ],
   ],
 
   trailingslash: {
