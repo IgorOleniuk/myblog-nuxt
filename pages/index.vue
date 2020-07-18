@@ -35,6 +35,20 @@ export default {
   async asyncData () {
     const posts = await getPosts();
     return { posts: posts };
+  },
+
+  jsonld() {
+    return {
+      "@context": "https://schema.org/",
+      "@type": "MedicalEntity",
+      name: "Урология",
+      description: "",
+      image: {
+        "@type": "ImageObject",
+        url:
+          "https://panel.robot-davinci.ru/uploads/disease-categories/2020/06/11/1591873539/muzhskaya-reproduktivnaya-sistema.png"
+      }
+    };
   }
 }
 </script>

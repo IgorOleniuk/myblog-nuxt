@@ -19,6 +19,7 @@
     "lazy-hydration": "^1.0.4",
     "node-cron": "^2.0.3",
     "nuxt": "^2.0.0",
+    "nuxt-jsonld": "^1.4.10",
     "nuxt-trailingslash-module": "^1.1.0",
     "vue-instagram": "^3.0.0"
   },

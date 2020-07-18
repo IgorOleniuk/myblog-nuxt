@@ -5349,6 +5349,11 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-jsonld@^1.4.10:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-1.4.10.tgz#7a69b741c6c51a9de1759db1661bcb2ec1f3f481"
+  integrity sha512-NaBFp+CDrgCqNImGJxo6N74hT3Sun0d5OHRvf/XdjgtnGLi0PHZV63FRc00SEHcJ0sp22kUXfK4sMhipUU25hQ==
+
 nuxt-trailingslash-module@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nuxt-trailingslash-module/-/nuxt-trailingslash-module-1.1.0.tgz#9038b82c2b426b07d9c1279bd1758829571beeee"
