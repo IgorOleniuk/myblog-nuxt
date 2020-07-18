@@ -50,6 +50,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     'nuxt-trailingslash-module',
+    'nuxt-payload-extractor',
     ['@nuxtjs/google-analytics', {
       id: process.env.GA_ID || ''
     }],
